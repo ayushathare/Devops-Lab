@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
+    style="background-color:#212122;">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+          href="./index.html"><img src="./assets/img/logo.png" style="height: 70px" alt="" /></a><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="collapse-navbar">
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <!-- Icon 1 -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://www.facebook.com/share/it2BG4jQrHuGmqgZ/?mibextid=dGKdO6"><i
+                class="text-orange-500 fab fa-facebook text-lg leading-lg"></i><span
+                class="lg:hidden inline-block ml-2">Share</span></a>
+          </li>
+          <!-- Icon 2 -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://twitter.com/ShriGanesh7121"><i
+                class="text-orange-500 fab fa-twitter text-lg leading-lg"></i><span
+                class="lg:hidden inline-block ml-2">Tweet</span></a>
+          </li>
+          <!-- Icon 3 -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://www.instagram.com/shriganeshenterprises_nashik?igsh=cXI1Y2sxd2Z5NHk4&utm_source=qr"><i
+                class="text-orange-500 fab fa-linkedin text-lg leading-lg"></i><span
+                class="lg:hidden inline-block ml-2">Profile</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="bg-white dark:bg-gray-900" style="margin-top: 140px;">
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div class="font-light text-gray-900 sm:text-lg dark:text-gray-400 text-justify">
+        <h2 class="mb-4 text-4xl font-bold text-gray-900 dark:text-white">Labor Solutions: <span
+            class="text-orange-500">Empowering</span> Your Operations</h2>
+        <p class="mb-4">At Shri Ganesh Enterprises, our <b>skilled labours</b> are trained to handle a wide range of
+          tasks, from equipment operation to project management. They are experienced professionals who understand the
+          importance of efficiency and safety on the job site. Our <b>unskilled</b> labours are equally important,
+          providing valuable support and contributing to the overall success of your project. They are hardworking
+          individuals who are committed to getting the job done right. we have the manpower to meet your needs. Our
+          labours are reliable, punctual, and dedicated to delivering high-quality work. With our comprehensive labour
+          services and commitment to customer satisfaction, you can trust Shri Ganesh Enterprises to provide the labour
+          solutions you need for your projects. Contact us today to discuss your labour requirements and let us help you
+          achieve your project goals.
+          <br>
+          Our labours are also trained to work efficiently, helping you save time and resources on your projects. With
+          our flexible labour solutions and commitment to excellence, we strive to exceed your expectations and deliver
+          exceptional results. Contact us today to learn more about how our skilled and unskilled labour services can
+          benefit your projects.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-4 mt-8">
+        <img class="w-full rounded-lg" src="./assets/img/labour1.avif" alt="office content 1">
+        <img class="mt-4 w-full rounded-lg lg:mt-10" src="./assets/img/labour2.jpg" alt="office content 2">
+      </div>
+    </div>
+  </section>
+
+  <div class="button">
+    <a href="./index.html" class="home-button">Home</a>
+  </div>
+
+  <footer class="relative bg-gray-300 pt-8 pb-6">
+
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl font-semibold">Follow us on social media</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+            Find us on any of these platforms, we respond 1-2 business days.
+          </h5>
+          <div class="mt-6">
+            <button
+              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-4 p-3"
+              type="button">
+              <a href="https://twitter.com/ShriGanesh7121"><i
+                  class="flex fab fa-twitter text-orange-500"></i></a></button><button
+              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-4 p-3"
+              type="button">
+              <a href="https://www.facebook.com/share/it2BG4jQrHuGmqgZ/?mibextid=dGKdO6">
+                <i class="flex fab fa-facebook-square text-orange-500"></i>
+              </a></button><button
+              class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-4 p-3"
+              type="button">
+              <a href="https://www.instagram.com/shriganeshenterprises_nashik?igsh=cXI1Y2sxd2Z5NHk4&utm_source=qr"><i
+                  class="flex fab fa-instagram text-orange-500"></i></a>
+            </button>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            <div class="w-full lg:w-6/12 ml-auto">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2" style="margin-top: 10px">Get in
+                touch</span>
+              <ul class="list-unstyled">
+                <li>
+                  Prop. Prabhakar Ranmale
+                  <a href="tel:9765559801"
+                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm">+91
+                    9765559801</a>
+                </li>
+                <li>
+                  Email
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="mailto:prabhakarranmale@gmail.com">prabhakarranmale@gmail.com</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://www.creative-tim.com/bootstrap-themes/free"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-6 border-gray-400" />
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+            Copyright © 2022. All Rights Reserved By Shri Ganesh Enterprises
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

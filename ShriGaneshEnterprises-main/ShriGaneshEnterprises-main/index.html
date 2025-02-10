@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+    <title>Shri Ganesh Enterprises</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- <link rel="stylesheet" href="./output.css"> -->
+    <style>
+      .example::-webkit-scrollbar {
+        display: none;
+      }
+
+      @media screen and (max-width: 480px) {
+        html,
+        body {
+          overflow-x: hidden;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="text-gray-800 antialiased overflow-x-hidden example">
+    <!-- Navbar -->
+    <nav
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
+    >
+      <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+      >
+        <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+          <a
+            class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            href="#"
+            ><img src="./assets/img/logo.png" style="height: 70px" alt="" /></a
+          ><button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('collapse-navbar')"
+          >
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+        <div
+          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          id="collapse-navbar"
+        >
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <!-- Icon 1 -->
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://www.facebook.com/share/it2BG4jQrHuGmqgZ/?mibextid=dGKdO6"
+                ><i
+                  class="text-orange-500 fab fa-facebook text-lg leading-lg"
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Share</span></a
+              >
+            </li>
+            <!-- Icon 2 -->
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://twitter.com/ShriGanesh7121"
+                ><i
+                  class="text-orange-500 fab fa-twitter text-lg leading-lg"
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+              >
+            </li>
+            <!-- Icon 3 -->
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://www.instagram.com/shriganeshenterprises_nashik?igsh=cXI1Y2sxd2Z5NHk4&utm_source=qr"
+                ><i
+                  class="text-orange-500 fab fa-instagram text-lg leading-lg"
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Profile</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Area -->
+    <main>
+      <!-- Hero -->
+      <div
+        class="relative h-screen pt-16 pb-32 flex content-center items-center justify-center"
+      >
+        <div
+          class="absolute top-0 w-full h-full bg-center bg-cover"
+          style="background-image: url('./assets/img/bg.avif')"
+        >
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-75 bg-black"
+          ></span>
+        </div>
+        <div class="container relative mx-auto" data-aos="fade-in">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <h1 class="text-white font-semibold text-5xl">
+                Lifting Your<span class="text-orange-500"> Industry </span>to
+                New Heights
+              </h1>
+              <p class="mt-4 text-lg text-gray-300">
+                From Precision to Power, We've Got You Covered. Discover Our
+                Range of Forklifts and Cranes for Every Industry Need.
+              </p>
+              <a
+                href="#contact"
+                class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-10 cursor-pointer transition"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+          style="height: 70px"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-300 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <section id="about" class="relative py-20">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-12 px-6 text-center" data-aos="fade-left">
+              <h3 class="mt-2 text-4xl font-bold" style="margin-bottom: 35px">
+                <span class="text-orange-500">About</span> Us
+              </h3>
+              <p class="mt-4 text-lg leading-relaxe text-justify mr-4">
+                Established in 2003 by founder Mr. Prabhakar Ranmale, Shri
+                Ganesh Enterprises has earned a reputation as a premier service
+                provider in the material handling industry. We specialize in
+                offering a comprehensive range of forklifts to suit various
+                operational needs, distinguishing ourselves with our dedication
+                to serving our client's requirements. With a team of
+                <b>33+ skilled drivers</b>, <b>60+ labours</b>, and a fleet of
+                <b>15+ forklifts</b>, we are equipped to provide reliable
+                solutions for a wide range of projects. <br />
+                Our services extend beyond forklift supply to include skilled
+                labours, crane rentals, and a variety of material handling
+                equipment available for hire. Our commitment to excellence and
+                customer satisfaction drives us to deliver reliable and
+                efficient solutions, ensuring that every project is completed
+                with the utmost professionalism. At Shri Ganesh Enterprises, we
+                pride ourselves on meeting the diverse needs of our clients with
+                tailored solutions that enhance operational efficiency and
+                productivity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Vision & Mission -->
+      <div class="container mx-auto px-4 pb-20">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-12 px-6 text-center" data-aos="fade-left">
+            <h3 class="mt-2 text-4xl font-bold" style="margin-bottom: 35px">
+              <span class="text-orange-500">Our</span> Vision & Mission
+            </h3>
+            <p class="mt-4 text-lg leading-relaxe text-justify mr-4">
+              <b>Vision: </b> To be the preferred partner for material handling
+              and skilled labours needs, recognized for our commitment to
+              sustainable practices, customer satisfaction, and industry-leading
+              expertise.
+            </p>
+            <p class="mt-4 text-lg leading-relaxe text-justify mr-4">
+              <b>Mission: </b> To empower businesses with innovative and
+              efficient material handling solutions and skilled labour services,
+              ensuring safety, reliability, and excellence at every step.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Services -->
+      <section class="mb-24">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center text-center mb-24">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="mt-2 text-4xl font-bold">
+                Services We <span class="text-orange-500">Provide</span>
+              </h2>
+              <p class="text-lg leading-relaxed m-4 text-gray-600">
+                Your Partner for Reliable Equipment and Expert Service
+              </p>
+            </div>
+          </div>
+          <!--Card Wrapper -->
+          <div class="flex flex-wrap">
+            <!-- Card 1 -->
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <a href="./forklift.html">
+                  <img
+                    alt="..."
+                    src="./assets/img/f2.jpg"
+                    class="shadow-lg rounded max-w-full mx-auto"
+                    style="max-width: 250px; transition: transform 0.3s"
+                    onmouseover="this.style.transform='scale(1.1)';"
+                    onmouseout="this.style.transform='scale(1)';"
+                  />
+                </a>
+
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Forklifts</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Delivering expert forklift solutions tailored to your
+                    industry needs
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <a href="./cranes.html">
+                  <img
+                    alt="..."
+                    src="./assets/img/c1.jpg"
+                    class="shadow-lg rounded max-w-full mx-auto"
+                    style="max-width: 250px; transition: transform 0.3s"
+                    onmouseover="this.style.transform='scale(1.1)';"
+                    onmouseout="this.style.transform='scale(1)';"
+                  />
+                </a>
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Cranes</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    From rentals to maintenance, we're your reliable partner for
+                    all crane needs
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <a href="./labour.html">
+                  <img
+                    alt="..."
+                    src="./assets/img/l1.jpg"
+                    class="shadow-lg rounded max-w-full mx-auto"
+                    style="max-width: 250px; transition: transform 0.1s"
+                    onmouseover="this.style.transform='scale(1.1)';"
+                    onmouseout="this.style.transform='scale(1)';"
+                  />
+                </a>
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Experts Labours</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Offering skilled & unskilled labour solutions customized to
+                    your industry demands
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- Why us  -->
+       <div class="">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-12 text-center" data-aos="fade-left">
+            <h3 class="mt-2 text-4xl font-bold" style="margin-bottom: 35px">
+              Why
+              <span class="text-orange-500">Us</span>
+            </h3>
+            <ol>
+              <li style="padding-bottom: 10px;">
+               <b> Expertise:</b> Specialists in forklifts and cranes for 22
+                years.
+              </li>
+
+              <li style="padding-bottom: 10px;"><b>Range:</b> Forklifts from 1 to 10 tons.</li>
+
+              <li style="padding-bottom: 10px;"><b>Skilled Team:</b> 33+ drivers, 60+ Labours.</li>
+
+              <li style="padding-bottom: 10px;"><b>Quality:</b> Well-maintained equipment.</li>
+
+              <li style="padding-bottom: 10px;"><b>Customer Focus:</b> Tailored solutions.</li>
+
+              <li style="padding-bottom: 10px;"><b>Safety:</b> Regular checks for safe operations.</li>
+
+              <li style="padding-bottom: 10px;"><b>Flexibility:</b> Custom rental plans.</li>
+              
+              <li style="padding-bottom: 10px;"><b>Support:</b> 24/7 customer service.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Clients -->
+      <section class="pb-48">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center text-center mt-24 mb-24">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-bold mt-2">
+                Existing <span class="text-orange-500">Clients</span>
+              </h2>
+              <p class="text-lg leading-relaxed m-4 text-gray-600"></p>
+            </div>
+          </div>
+          <!--Card Wrapper -->
+          <div class="flex flex-wrap">
+            <!-- Card 1 -->
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/pngwing.com.png"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 250px; transition: transform 0.3s"
+                  onmouseover="this.style.transform='scale(1.1)';"
+                  onmouseout="this.style.transform='scale(1)';"
+                />
+
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold text-gray-500">
+                    Thyssenkrupp Electrical Steel India Private Limited
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/m1.png"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 250px; transition: transform 0.3s"
+                  onmouseover="this.style.transform='scale(1.1)';"
+                  onmouseout="this.style.transform='scale(1)';"
+                />
+
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold text-gray-500">
+                    Mahindra Logistics Limited
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/r1.png"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="
+                    max-width: 250px;
+                    transition: transform 0.1s;
+                    height: 187px;
+                  "
+                  onmouseover="this.style.transform='scale(1.1)';"
+                  onmouseout="this.style.transform='scale(1)';"
+                />
+
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold text-gray-500">
+                    Rothe Erde India Private Limited
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </section>
+
+      <!-- Contact Header Section -->
+      <section class="pb-20 relative block bg-gray-900" id="contact">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-900 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4 pt-24 pb-40 lg:pb-64">
+          <div class="flex flex-wrap text-center justify-center">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-bold text-orange-500">Contact Us</h2>
+              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-300">
+                Contact us to ask any questions, aquire a membership, or talk to
+                our team
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+            <div class="w-full lg:w-6/12 px-4">
+              <div
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg"
+                data-aos="fade-up-right"
+              >
+                <form action="https://formspree.io/f/xyyrddla" method="POST">
+                  <div class="flex-auto p-5 lg:p-10 text-gray-300">
+                    <div class="relative w-full mb-6 mt-8">
+                      <label
+                        class="block uppercase text-xs font-bold mb-2"
+                        for="name"
+                        >Full Name</label
+                      ><input
+                        type="name"
+                        class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                        placeholder="Full Name"
+                        style="transition: all 0.15s ease 0s"
+                        name="name"
+                        required
+                      />
+                    </div>
+                    <div class="relative w-full mb-6">
+                      <label
+                        class="block uppercase text-xs font-bold mb-2"
+                        for="email"
+                        >Email</label
+                      ><input
+                        type="email"
+                        class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                        placeholder="Email"
+                        style="transition: all 0.15s ease 0s"
+                        name="email"
+                      />
+                    </div>
+                    <div class="relative w-full mb-6">
+                      <label
+                        class="block uppercase text-xs font-bold mb-2"
+                        for="message"
+                        >Message</label
+                      ><textarea
+                        rows="4"
+                        cols="80"
+                        class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                        placeholder="Type a message..."
+                        name="message"
+                      ></textarea>
+                    </div>
+                    <div class="text-center mt-6">
+                      <button
+                        class="bg-orange-500 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                        type="submit"
+                        style="transition: all 0.15s ease 0s"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-gray-300 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold">Follow us on social media</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Find us on any of these platforms, we respond 1-2 business days.
+            </h5>
+            <div class="mt-6">
+              <button
+                class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-4 p-3"
+                type="button"
+              >
+                <a href="https://twitter.com/ShriGanesh7121"
+                  ><i class="flex fab fa-twitter text-orange-500"></i
+                ></a></button
+              ><button
+                class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-4 p-3"
+                type="button"
+              >
+                <a
+                  href="https://www.facebook.com/share/it2BG4jQrHuGmqgZ/?mibextid=dGKdO6"
+                >
+                  <i class="flex fab fa-facebook-square text-orange-500"></i>
+                </a></button
+              ><button
+                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-4 p-3"
+                type="button"
+              >
+                <a
+                  href="https://www.instagram.com/shriganeshenterprises_nashik?igsh=cXI1Y2sxd2Z5NHk4&utm_source=qr"
+                  ><i class="flex fab fa-instagram text-orange-500"></i
+                ></a>
+              </button>
+              <p class="pr-12 mt-6 w-full text-lg text-gray-700">Shri Ganesh Building, Shop No. 4, Wadivarhe Main Road, Wadivahre, Taluka: Igatpuri, District: Nashik, Maharashtra 422403</p>
+            </div>
+          </div>
+          <div class="w-full lg:w-6/12">
+            <div class="flex flex-wrap items-top mb-6">
+              <!-- <div class="w-full lg:w-6/12 ml-auto">
+              <span
+                class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                style="margin-top: 10px">Get in touch</span>
+              <ul class="list-unstyled">
+                <li>
+                  Prop. Prabhakar Ranmale
+                  <a href="tel:9765559801"
+                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm">+91
+                    9765559801</a>
+                </li>
+                <li>
+                  Email
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="mailto:prabhakarranmale@gmail.com">prabhakarranmale@gmail.com</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://www.creative-tim.com/bootstrap-themes/free"></a>
+                </li>
+              </ul>
+            </div> -->
+              <div  class="w-full lg:w-4/12 px-4 ml-auto">
+                <iframe style="margin-bottom: 20px; margin-top: 20px;"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30019.792695226144!2d73.64125021083984!3d19.862193499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd93685e5b6a6f%3A0xfab8733484f458da!2sShri%20Ganesh%20Enterprises!5e0!3m2!1sen!2sin!4v1712246011903!5m2!1sen!2sin"
+                  width="150"
+                  height="150"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+               
+              </div>
+              <div class="w-full lg:w-4/12 px-4">
+                <span
+                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                  style="margin-top: 20px"
+                  >Get in touch</span
+                >
+                <ul class="list-unstyled">
+                  <li>
+                    Prop. Prabhakar Ranmale
+                    <a
+                      href="tel:9765559801"
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      >+91 9765559801</a
+                    >
+                  </li>
+                  <li>
+                    Email
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="mailto:prabhakarranmale@gmail.com"
+                      >prabhakarranmale@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://www.creative-tim.com/bootstrap-themes/free"
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600 font-semibold py-1">
+              Copyright © 2022. All Rights Reserved By Shri Ganesh Enterprises
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js"></script>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+
+    AOS.init({
+      delay: 200,
+      duration: 1200,
+      once: false,
+    });
+
+    const faqItems = document.querySelectorAll(".faq-item");
+
+    faqItems.forEach((faqItem) => {
+      faqItem.addEventListener("click", () => {
+        faqItem.classList.toggle("active");
+      });
+    });
+  </script>
+</html>
